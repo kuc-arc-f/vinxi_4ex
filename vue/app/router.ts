@@ -1,5 +1,4 @@
-<script setup lang="ts">
-import { RouterLink } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router'
 //
 const pages = import.meta.glob('./client/*.vue', { eager: true })
 const routes = Object.keys(pages).map((path) => {
@@ -10,19 +9,11 @@ const routes = Object.keys(pages).map((path) => {
     component: pages[path].default,
   }
 })
-console.log("#App.vue");
 //console.log(routes);
-let items = routes;
-</script>
+//
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+})
 
-<template>
-  <div>
-    <router-view></router-view>
-  </div>
-</template>
-
-<style scoped>
-</style>
-
-<!-- 
--->
+export default router
