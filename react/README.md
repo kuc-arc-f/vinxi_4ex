@@ -22,6 +22,11 @@ npm run dev
 ```
 
 ***
+### Blog
+
+https://zenn.dev/knaka0209/scraps/2f0e30cfe9840a
+
+***
 # License
 
 * MIT
