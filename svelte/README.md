@@ -23,6 +23,11 @@ npm run dev
 ```
 
 ***
+### blog
+
+https://zenn.dev/link/comments/8e1b54d2bf9bb2
+
+***
 # License
 
 * MIT
