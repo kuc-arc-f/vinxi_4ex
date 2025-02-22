@@ -4,6 +4,7 @@ import React from "react";
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Home from './client/home';
 import About from './client/about';
+import Todo from './client/todo';
 import Test1 from './client/test1';
 
 export default function App(){
@@ -14,6 +15,7 @@ export default function App(){
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/test1" element={<Test1 />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   </div>

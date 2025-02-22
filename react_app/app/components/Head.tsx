@@ -6,7 +6,8 @@ function Page() {
     return (
     <div>
         <Link to="/">Home</Link>
-        <Link to="/about">&nbsp; [ about ]</Link>
+        <Link to="/about" className="mx-2" > [ about ]</Link>
+        <Link to="/todo" className="mx-2" > [ todo ]</Link>
         <hr />
     </div>
     );
